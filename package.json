@@ -1,0 +1,25 @@
+{
+  "name": "shiritori-bot",
+  "version": "1.0.0",
+  "description": "BOT para o servidor do Discord voltado ao aprendizado da língua portuguesa. Sua única função é gerenciar e manter um jogo de palavras baseado em shiritori.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r47orr/shiritori-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r47orr/shiritori-bot/issues"
+  },
+  "homepage": "https://github.com/r47orr/shiritori-bot#readme"
+}
