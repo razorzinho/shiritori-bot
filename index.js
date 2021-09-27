@@ -1,9 +1,9 @@
 const { Client } = require('discord.js');
-var json = require('./config.json');
+const config = require('./config.json');
 require('dotenv').config();
 
-const prefix = json.configs.prefix;
-const intents = json.configs.intents;
+const prefix = config.configs.prefix;
+const intents = config.configs.intents;
 
 const client = new Client({ intents });
 
