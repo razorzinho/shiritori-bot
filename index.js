@@ -1,11 +1,11 @@
-const { Client } = require('discord-js');
+const { Client } = require('discord.js');
 var json = require('./config.json');
 require('dotenv').config();
 
 const prefix = json.configs.prefix;
 const intents = json.configs.intents;
 
-const client = new Client({intents = intents});
+const client = new Client({ intents });
 
 client.on('message', async (message) => {
     if (message.author.client) return;
@@ -16,7 +16,7 @@ client.on('message', async (message) => {
         const commandName = args.shift().toLowerCase();
 
         const command = client.commands.get(commandName) || client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
-        if(!command) return;
+        if (!command) return;
     }
 });
 
