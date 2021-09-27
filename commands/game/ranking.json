@@ -1,19 +1,19 @@
 {
     "players": {
         "301337199406874624": {
-            "name": "Razor",
             "xp": 0,
             "played": 0,
             "won": 0,
-            "lost": 0,
+            "good-words": 0,
+            "bad-words": 0,
             "rank": 0
         },
         "456659328959512576": {
-            "name": "Fael",
             "xp": 0,
             "played": 0,
             "won": 0,
-            "lost": 0,
+            "good-words": 0,
+            "bad-words": 0,
             "rank": 0
         }
     }
