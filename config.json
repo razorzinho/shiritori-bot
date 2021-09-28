@@ -9,6 +9,8 @@
             "GUILD_MESSAGES", 
             "GUILD_MESSAGE_TYPING", 
             "GUILD_MESSAGE_REACTIONS"
-        ]
+        ],
+        "game_channel_id": 0,
+        "commands_channel_id": 0
     }
 }
